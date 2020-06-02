@@ -11,11 +11,11 @@
 
 
 def square(x):
-    return x*x
+    return x * x
+
 
 int_lis = [1, 2, 3, 4, 5, 6, 7, 8, 9]
-add_res = map(sum, int_lis)
+add = lambda i: sum(i)
+
 square_res = map(square, int_lis)
-print(add_res, list(square_res))
-
-
+print(add(int_lis), list(square_res))
