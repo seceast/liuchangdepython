@@ -4,6 +4,18 @@
 # @File    : p.py
 
 
-name = 'kaka'
-age = 20.66666
-print(f'my name is {name}, age is {age:.2f}')
+# info_dic = {'name': 'kaka', 'age': 20.66666}
+# # print(f'my name is {name}, age is {age:.2f}')
+# for i, v in info_dic.items():
+#     print(f'{i}:{v}')
+
+
+def square(x):
+    return x*x
+
+int_lis = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+add_res = map(sum, int_lis)
+square_res = map(square, int_lis)
+print(add_res, list(square_res))
+
+
