@@ -9,7 +9,7 @@ def ran(it):
     #     yield i
     yield from it
 
+
 a_lis = [1, 2, 3, 4, 5, 6, 7]
 
 print(list(ran(a_lis)))
-
